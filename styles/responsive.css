@@ -1,0 +1,33 @@
+/* nav bar responsive style  */
+@media screen and (max-width: 576px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .header-dis-section {
+        width: 380px;
+    }
+
+    .photo img {
+        height: 300px;
+        width: 420px;
+    }
+    .quic-list-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .quic-list-sec-dis{
+        align-items: center;
+    }
+    .features-section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* quic lis section end  */
